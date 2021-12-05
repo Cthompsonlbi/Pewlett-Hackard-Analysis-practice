@@ -16,7 +16,7 @@ For the first deliverable, we had to generate 2000 random longitudes and latitud
 
 * Retirement Titles Query
 
-![retirement_titles_queries](Resources/retirement_titles_queries)
+![retirement_titles_queries](Resources/retirement_titles_queries.png)
 
 * Retirement Titles Output
 
