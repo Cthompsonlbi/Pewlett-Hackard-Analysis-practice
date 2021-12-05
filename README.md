@@ -41,16 +41,16 @@ The purpose of the first deliverable is to compile a list of employees, their ti
 ### Deliverable 2: Identify Potential Mentorship Candidates and Current Titles
 For this deliverable we are required to take inputs supplied by the user regarding weather preferences and search the list of cities that were created during first deliverable and return cities that meet the users weather requirements.  The output will be an interactive map generated utilizing Google maps and APIs with markers on cities that met the users input criteria.  The user then can click on specific marker and return a short list of information regarding the name of the city, country, nearby hotel and current weather.
 
-* Map meeting user weather requirements
+* Mentorship Eligibility Query
 
-![WeatherPy_vacation_map](Vacation_Search/WeatherPy_vacation_map.png)
+![MentorshipEligibilityQuery](Resources/MentorshipEligibilityQuery.png)
 
 ### Deliverable 3: Create a Travel Itinerary Map
 For the final deliverable, we will use the Google Directions API to create a travel itinerary that shows the route between four cities chosen from the user's possible travel destinations. The user will select four cities and we will create a travel itinerary.  In addition to the travel itinerary, we will provide the user basic information about that city when they click the marker.
 
-* Map showing an example itinerary based on user's inputs.
+* Mentorship Eligibility Output
 
-![WeatherPy_travel_map](Vacation_Itinerary/WeatherPy_travel_map.png)
+![MentorshipEligibilityOutput](Resources/MentorshipEligibilityOutput.png)
 
 * Map showing weather and hotel information of the cities selected by the user
 
