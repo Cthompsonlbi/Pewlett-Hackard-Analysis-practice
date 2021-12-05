@@ -3,7 +3,7 @@ Module 7 Challenge
 
 ## Overview of Project
 
-Due to the aging employee population and it's antiquated 'database' system, Pewlett-Hackard finds itself unprepared for what they are calling a 'Silver Tsunami' of employees that have the perfect combination of age and years of service and possibly moving towards retirement.  A concern so overwhelming that they have enlisted our services to update their database systems and conduct an analysis to provide better visability of the situation and possible solutions to assist in an transition that may occur if their aging team members decide to retire.
+Due to it's aging employee population and it's antiquated 'database' system, Pewlett-Hackard finds itself unprepared for what they are calling a 'Silver Tsunami' of employees retiring as they have the perfect combination of age and years of service and possibly moving towards retirement.  A concern so overwhelming that they have enlisted our services to update their database systems and conduct an analysis to provide better visability of the situation and possible solutions to assist in an transition that may occur if their aging team members decide to retire.
 
 ### Purpose
 
@@ -11,35 +11,34 @@ The purpose of this challenge is to apply our database and query skills, coupled
 
 ## Results
 
-### Deliverable 1: Retrieve Weather Data
-For the first deliverable, we had to generate 2000 random longitudes and latitudes and save them to a list.  Once generated we had to do a search to locate the closest cities to  the longitude and latitudes in the list.  Not all coordinates returned a city value as many of the coordinates were over bodies of water.  Once cities were identified, a JSON file was created to parse the data to return the city name, country name, actual longitude and latitude, maximum temp, humidity, wind speed and current weather description. Please find the JSON code snippet below and a snippet of the resultant output of the JSON code.
+### Deliverable 1: Retrieve Potential Retiring Employees and Titles
+The purpose of the first deliverable is to compile a list of employees, their titles and Pewlett-Hackard start dates based on their year of birth.  This will help the executive team access how many team members are nearing retiremnt age and the positions they currently hold.  With this information, Pewlett-Hackard can put together an action plan and a roadmap to navigate through this possible transition  
 
-* Retirement Titles Query
-
+* Below is the 'Retirement Titles Query' that pulls back all employees and titles nearing retirment age.  
 ![retirement_titles_queries](Resources/retirement_titles_queries.png)
 
-* Retirement Titles Output
+* Based on the 'Retirement Titles Output' below, We can see that the limitation of this data is there are many duplicate entries with regards to names as Pewlett_Hackard employees have held many positions over the years.  We will need to limit the data set to only include the most recent position held by employees of interest.
 
 ![RetirmentTitles](Resources/RetirmentTitles.png)
 
-* Unique Titles Query
+* Unique Titles Query was created to return only the most recent title held by the employees that are nearing retirement age.
 
 ![UniqueTitlesOnlyQuery2nd_deli1](Resources/UniqueTitlesOnlyQuery2nd_deli1.png)
 
-* Unique Titles Output
+* Unique Titles Output table below shows the result of the above query.  Please note that all duplicate employee names have been removed.
 
 ![UniqueTitleDuplicatesRemoved](Resources/UniqueTitleDuplicatesRemoved.png)
 
-* Retiring Titles Query
+* The resultant table above in it's entirety is still quite a large data set and would take the executive team a long time to analyze and put together an action plan.  To assist the executive team we created a 'Retiring Titles Query' table to quickly summarize the data a present an overview of the number of employees that could retire based on their titles. The query below was constructed to return that information.
 
 ![queryTitleCountRetires](Resources/queryTitleCountRetires.png)
 
-* Retiring TItles Ouptut
+* Retiring TItles Ouptut is the resulting output based on the query above.  It is quite evident that Pewlett-Hackard could potentially lose a large number of very experienced employees.
 
 ![UniqueTitleCountOutPut](Resources/UniqueTitleCountOutPut.png)
 
 
-### Deliverable 2: Create a Customer Travel Destinations Map
+### Deliverable 2: Identify Potential Mentorship Candidates and Current Titles
 For this deliverable we are required to take inputs supplied by the user regarding weather preferences and search the list of cities that were created during first deliverable and return cities that meet the users weather requirements.  The output will be an interactive map generated utilizing Google maps and APIs with markers on cities that met the users input criteria.  The user then can click on specific marker and return a short list of information regarding the name of the city, country, nearby hotel and current weather.
 
 * Map meeting user weather requirements
