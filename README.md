@@ -45,12 +45,14 @@ For this deliverable we are required to take inputs supplied by the user regardi
 
 ![MentorshipEligibilityQuery](Resources/MentorshipEligibilityQuery.png)
 
-### Deliverable 3: Create a Travel Itinerary Map
-For the final deliverable, we will use the Google Directions API to create a travel itinerary that shows the route between four cities chosen from the user's possible travel destinations. The user will select four cities and we will create a travel itinerary.  In addition to the travel itinerary, we will provide the user basic information about that city when they click the marker.
-
 * Mentorship Eligibility Output
 
 ![MentorshipEligibilityOutput](Resources/MentorshipEligibilityOutput.png)
+
+### Deliverable 3: Create a Travel Itinerary Map
+For the final deliverable, we will use the Google Directions API to create a travel itinerary that shows the route between four cities chosen from the user's possible travel destinations. The user will select four cities and we will create a travel itinerary.  In addition to the travel itinerary, we will provide the user basic information about that city when they click the marker.
+
+
 
 * Map showing weather and hotel information of the cities selected by the user
 
