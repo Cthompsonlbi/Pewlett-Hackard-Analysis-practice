@@ -24,17 +24,19 @@ For the first deliverable, we had to generate 2000 random longitudes and latitud
 
 * Unique Titles Query
 
-![weather](Resources/weather.png)
+![UniqueTitlesOnlyQuery2nd_deli1](Resources/UniqueTitlesOnlyQuery2nd_deli1.png)
 
 * Unique Titles Output
 
-![weather](Resources/weather.png)
+![UniqueTitleDuplicatesRemoved](Resources/UniqueTitleDuplicatesRemoved.png)
 
 * Retiring Titles Query
 
-![weather](Resources/weather.png)
+![retirement_titles_queries](Resources/retirement_titles_queries.png)
 
 * Retiring TItles Ouptut
+
+![UniqueTitleCountOutPut](Resources/UniqueTitleCountOutPut.png)
 
 
 ### Deliverable 2: Create a Customer Travel Destinations Map
