@@ -85,11 +85,11 @@ Upon reviewing the data above and reviewing what other companies have done when 
 
 * First, reach out to those identified as ready for retirement and get a sense of when they actually plan to retire
 * Develop short term incentives to motivate the individuals identified as part of the 'Silver Tsunami' to delay their retirement
-*   This can be done through offering them part time status to allow them more time off
-*   Another option is to develop and enact a mentorship program that will allow these individuals to bring up less experienced team member
+**  This can be done through offering them part time status to allow them more time off
+**   Another option is to develop and enact a mentorship program that will allow these individuals to bring up less experienced team member
 * Develop long term incentives that will help in the short term but, also prevent this from happening in the future
-*   A well defined mentorship program that is supported by corporate that becomes part of the companies cultures.
+**   A well defined mentorship program that is supported by corporate that becomes part of the companies cultures.
 * Create a Volunteer Seperation Package(VSP) that is once again rolled into the corporate benefits package and takes root in the company culture
-*   Once an individual meets an age and years of service requirement, they are eligible to receive an incentive package to leave the company(like a golden parachute), provided they are in good standing with the company and they give a 12 - 18 month notice of their intent to retire.  Once notice is given, this will give time for the management team to groom this individuals replacement.
+**   Once an individual meets an age and years of service requirement, they are eligible to receive an incentive package to leave the company(like a golden parachute), provided they are in good standing with the company and they give a 12 - 18 month notice of their intent to retire.  Once notice is given, this will give time for the management team to groom this individuals replacement.
 
 These are some of the suggestion that will be presented to the team to dampen this 'Silver Tsunami'.  Keeping the more experienced team involved can be beneficial in so many ways. Many of these individuals have experience that can not be learned by reading process documents and structured training. By providing them with an opportunitiy to mentor, work part time, and take part in a VSP their experience stays within the company and passed onto others. These individuals have a vested interest in sharing their knowledge with those within Pewlett-Hackard and not to competitors.
