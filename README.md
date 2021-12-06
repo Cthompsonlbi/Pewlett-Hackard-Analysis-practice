@@ -39,13 +39,13 @@ The purpose of the first deliverable is to compile a list of employees, their ti
 
 
 ### Deliverable 2: Identify Potential Mentorship Candidates and Current Titles
-For this deliverable we are required to take inputs supplied by the user regarding weather preferences and search the list of cities that were created during first deliverable and return cities that meet the users weather requirements.  The output will be an interactive map generated utilizing Google maps and APIs with markers on cities that met the users input criteria.  The user then can click on specific marker and return a short list of information regarding the name of the city, country, nearby hotel and current weather.
+After acquiring the data regarding employees that are nearing retiring age, the Executive team requested data on team members are currently with the company and could be mentored and eventually take over for those who will retiring.  The query below was created to pull that information and place it in a mentorship eligibility table.
 
 * Mentorship Eligibility Query
 
 ![MentorshipEligibilityQuery](Resources/MentorshipEligibilityQuery.png)
 
-* Mentorship Eligibility Output
+* Mentorship Eligibility Output is the result from the quiery above.
 
 ![MentorshipEligibilityOutput](Resources/MentorshipEligibilityOutput.png)
 
