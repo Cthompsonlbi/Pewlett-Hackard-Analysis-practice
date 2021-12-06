@@ -72,9 +72,9 @@ To provide better clarity to the Executive team, we decided to run two additiona
 
 ![mentorshipbydepartmentoutput](Resources/mentorshipbydepartmentoutput.png)
 
-* Knowing that all departments will be impacted differently by this potential Tsunami, we created a pie chart displaying which departments will be impacted most, on a percentage basis, if the Tsunami hits.  This chart below does a nice job of drawing the readers eye in and quickly access which departments will need to move the quickest.
+* Knowing that all departments will be impacted differently by this potential Tsunami, we created a pie chart displaying which departments will be impacted most, on a percentage basis, if the Tsunami hits. Please also find included the code used to create the pie chart. This chart below does a nice job of drawing the readers eye in and quickly access which departments will need to move the quickest.  
 
-![retirementPie](Resources/retirementPie.png), ![piechartcode](Resources/piechartcode.PNG)
+![piechartcode](Resources/piechartcode.PNG), ![retirementPie](Resources/retirementPie.png)
 
 * To take it a step further, we merged the two mentorship and retirement tables and created a bar chart so that he executives can get a better sense of scale as to how may people could be leaving the company and those that have been identified for a role in mentorship.  These two visuals, the bar chart and pie chart, will convince that Pewlett-Hackerd will have to put together a plan quickly to stem the impact if this Tsunami were to happen sooner than laer.
 
