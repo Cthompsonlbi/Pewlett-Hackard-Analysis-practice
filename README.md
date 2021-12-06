@@ -49,15 +49,30 @@ After acquiring the data regarding employees that are nearing retiring age, the 
 
 ![MentorshipEligibilityOutput](Resources/MentorshipEligibilityOutput.png)
 
-### Deliverable 3: Create a Travel Itinerary Map
-For the final deliverable, we will use the Google Directions API to create a travel itinerary that shows the route between four cities chosen from the user's possible travel destinations. The user will select four cities and we will create a travel itinerary.  In addition to the travel itinerary, we will provide the user basic information about that city when they click the marker.
+### Retirement vs Mentorship
+To provide better clarity to the Executive team, we decided to run two additional queries to get a better understanding of how many people could be leaving Pewlett Hackard in the near future compare to those who are ready to mentor or be mentored.  The first query below returned information regardin which departments will feel the greatest impact if the 'Silver Tsunami' were to happen at once.  The second query returned how many people from each department were identified as those ready to be mentored by those that are retiring and in-turn mentor those with less experience
 
 
 
-* Map showing weather and hotel information of the cities selected by the user
+* Query used to Return Total Retirment Ready Individuals by Department
 
-![WeatherPy_travel_map_markers](Vacation_Itinerary/WeatherPy_travel_map_markers.png)
+![retirmentbydeptquery](Resources/retirmentbydeptquery.png)
 
+* Total Retirement Ready Individuals by Department
+
+![retirmentbydeptoutput](Resources/retirmentbydeptoutput.png)
+
+* Query used to Return Total Number of Mentorship Ready Individuals by Department
+
+![mentorshipbydepartmentquery](Resources/mentorshipbydepartmentquery.png)
+
+* Total Mentorship Ready Individuals by Department
+
+![mentorshipbydepartmentoutput](Resources/mentorshipbydepartmentoutput.png)
+
+* Pie Chart displaying which departments will be impacted most if the Tsunami hits
+
+![retirementPie](Resources/retirementPie.png)
 
 ## Summary
 In summary, this was a very interesting exercise that helped open the wide ranging possibilities and uses for Python, APIs, etc.
