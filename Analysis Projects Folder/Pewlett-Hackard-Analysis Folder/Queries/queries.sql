@@ -220,4 +220,16 @@ WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
 GROUP BY d.dept_name
 ORDER BY d.dept_name;
 	
-	
+SELECT COUNT (ri.emp_no),
+	--ri.first_name,
+	--ri.last_name,
+	--de.dept_no,
+	d.dept_name
+FROM retirement_info as ri
+LEFT JOIN dept_emp as de
+ON(ri.emp_no = de.emp_no)
+INNER JOIN departments as d
+On(de.dept_no = d.dept_no)
+WHERE dept_name IN ('Sales', 'Development')
+GROUP BY d.dept_name
+ORDER BY d.dept_name;	
