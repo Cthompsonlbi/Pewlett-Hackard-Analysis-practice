@@ -32,7 +32,7 @@ AND (hire_date Between '1985-01-01' AND '1988-12-31');
 
 --Retirment eligibility
 SELECT first_name, last_name
-INTO retirement_info
+--INTO retirement_info
 FROM employees
 WHERE (birth_date Between '1952-01-01' AND '1955-12-31') 
 AND (hire_date Between '1985-01-01' AND '1988-12-31');
@@ -104,7 +104,7 @@ WHERE de.to_date = ('9999-01-01')
 --7.3.4 use count, group by and order by
 --employee count by department number
 SELECT COUNT(ce.emp_no), de.dept_no
-INTO retirement_dept
+--INTO retirement_dept
 FROM current_emp as ce
 LEFT JOIN dept_emp as de
 ON ce.emp_no = de.emp_no
@@ -159,7 +159,7 @@ SELECT ce.emp_no,
 ce.first_name,
 ce.last_name,
 d.dept_name
-INTO dept_info
+--INTO dept_info
 FROM current_emp as ce
 INNER JOIN dept_emp AS de
 ON(ce.emp_no = de.emp_no)
@@ -192,6 +192,32 @@ On(de.dept_no = d.dept_no)
 WHERE dept_name IN ('Sales', 'Development')
 ORDER BY d.dept_name;
 
+-- SELECT COUNT(ce.emp_no), 
+-- 	--de.dept_no, 
+-- 	d.dept_name
+-- --INTO retirement_dept
+-- FROM current_emp as ce
+-- LEFT JOIN dept_emp as de
+-- ON ce.emp_no = de.emp_no
+-- INNER JOIN departments as d
+-- ON de.dept_no = d.dept_no
+-- GROUP BY d.dept_name
+-- ORDER BY d.dept_name;
 
+SELECT COUNT(ce.emp_no), 
+	--de.dept_no, 
+	d.dept_name
+--INTO retirement_dept
+FROM current_emp as ce
+INNER JOIN dept_emp as de
+ON ce.emp_no = de.emp_no
+INNER JOIN departments as d
+ON de.dept_no = d.dept_no
+INNER JOIN employees as e
+ON e.emp_no = ce.emp_no
+WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
+	 AND (de.to_date = '9999-01-01')
+GROUP BY d.dept_name
+ORDER BY d.dept_name;
 	
 	
