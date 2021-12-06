@@ -78,7 +78,7 @@ To provide better clarity to the Executive team, we decided to run two additiona
 
 * To take it a step further, we merged the two mentorship and retirement tables and created a bar chart so that he executives can get a better sense of scale as to how may people could be leaving the company and those that have been identified for a role in mentorship.  These two visuals, the bar chart and pie chart, will convince that Pewlett-Hackerd will have to put together a plan quickly to stem the impact if this Tsunami were to happen sooner than laer.
 
-![Tsunamibar](Resources/Tsunamibar.png)
+![codemergedfbar](Resources/codemergedfbar.png), ![Tsunamibar](Resources/Tsunamibar.png)
 
 ## Summary
 Upon reviewing the data above and reviewing what other companies have done when face with similar situaitons, we have developed the following recommendations
