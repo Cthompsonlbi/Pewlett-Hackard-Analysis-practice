@@ -75,7 +75,7 @@ To provide better clarity to the Executive team, we decided to run two additiona
 ![retirementPie](Resources/retirementPie.png)
 
 * Bar Chart displaying the difference between the 'Silver Tsunami' and the mentorship eligible group
-* 
+
 ![Tsunamibar](Resources/Tsunamibar.png)
 
 ## Summary
